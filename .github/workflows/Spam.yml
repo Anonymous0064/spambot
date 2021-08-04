@@ -18,9 +18,9 @@ jobs:
 
         with:
 
-          find: "dav"
+          find: "RiZoel"
 
-          replace: "rooted"
+          replace: "NonRooted"
 
       - name: Create Pull Request
 
