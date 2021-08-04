@@ -18,7 +18,7 @@ jobs:
 
         with:
 
-          find: "RiZoel"
+          find: "Rizoel"
 
           replace: "NonRooted"
 
