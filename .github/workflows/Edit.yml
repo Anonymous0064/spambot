@@ -19,9 +19,9 @@ jobs:
 
         with:
 
-          find: "MarcuUserbot"
+          find: "𝐑𝐢𝐙𝐨𝐞𝐋"
 
-          replace: "MarcusUserbot"
+          replace: "𝙽𝚘𝚗𝚁𝚘𝚘𝚝𝚎𝚍"
 
       - name: Create Pull Request
 
