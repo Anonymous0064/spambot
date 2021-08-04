@@ -18,9 +18,9 @@ jobs:
 
         with:
 
-          find: "khu"
+          find: "yaa"
 
-          replace: "ni"
+          replace: "non"
 
       - name: Create Pull Request
 
