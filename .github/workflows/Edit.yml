@@ -19,9 +19,9 @@ jobs:
 
         with:
 
-          find: "DNHxHELL"
+          find: "MarcuUserbot"
 
-          replace: "MarcuUserbot"
+          replace: "MarcusUserbot"
 
       - name: Create Pull Request
 
