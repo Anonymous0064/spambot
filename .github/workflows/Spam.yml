@@ -18,9 +18,9 @@ jobs:
 
         with:
 
-          find: "DragNeelOP"
+          find: "@DragNeelOP"
 
-          replace: "hackelite01"
+          replace: "@hackelite01"
 
       - name: Create Pull Request
 
