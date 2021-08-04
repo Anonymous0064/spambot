@@ -18,9 +18,9 @@ jobs:
 
         with:
 
-          find: "Rizoel"
+          find: "𝐑𝐢𝐙𝐨𝐞𝐋"
 
-          replace: "NonRooted"
+          replace: "𝙽𝚘𝚗𝚁𝚘𝚘𝚝𝚎𝚍"
 
       - name: Create Pull Request
 
@@ -37,3 +37,4 @@ jobs:
           commit_user_name: hackelite01
 
           commit_user_email: hackelite.sup@gmail.com
+tc
