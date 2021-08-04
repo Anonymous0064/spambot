@@ -65,7 +65,7 @@ ake = ""
 eel = ""
 ni = ""
 shi = ""
-yaa = ""
+non = ""
 dav = ""
 raj = ""
 put = ""
@@ -99,7 +99,7 @@ async def start_rizoel():
     global eel
     global ni
     global shi
-    global yaa
+    global non
     global dav
     global raj
     global put
@@ -634,13 +634,13 @@ async def start_rizoel():
     if baish:
         session_name = str(baish)
         print("String 22 Found")
-        yaa = TelegramClient(StringSession(session_name), a, b)
+        non = TelegramClient(StringSession(session_name), a, b)
         try:
             print("Booting Up The Client 22")
-            await yaa.start()
-            botme = await yaa.get_me()
-            await yaa(functions.channels.JoinChannelRequest(channel="@DragNeelOP"))
-            await yaa(functions.channels.JoinChannelRequest(channel="@DNHxHELL"))
+            await non.start()
+            botme = await non.get_me()
+            await non(functions.channels.JoinChannelRequest(channel="@DragNeelOP"))
+            await non(functions.channels.JoinChannelRequest(channel="@DNHxHELL"))
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
         except Exception as e:
@@ -649,9 +649,9 @@ async def start_rizoel():
     else:
         print("Session 22 not Found")
         session_name = "startup"
-        yaa = TelegramClient(session_name, a, b)
+        non = TelegramClient(session_name, a, b)
         try:
-            await yaa.start()
+            await non.start()
         except Exception as e:
             pass
    
@@ -769,7 +769,7 @@ async def gifspam(e, smex):
 @eel.on(events.NewMessage(incoming=True, pattern=r"\.bio"))
 @ni.on(events.NewMessage(incoming=True, pattern=r"\.bio"))
 @shi.on(events.NewMessage(incoming=True, pattern=r"\.bio"))
-@yaa.on(events.NewMessage(incoming=True, pattern=r"\.bio"))
+@non.on(events.NewMessage(incoming=True, pattern=r"\.bio"))
 @dav.on(events.NewMessage(incoming=True, pattern=r"\.bio"))
 @raj.on(events.NewMessage(incoming=True, pattern=r"\.bio"))
 @put.on(events.NewMessage(incoming=True, pattern=r"\.bio"))
@@ -811,7 +811,7 @@ async def _(e):
 @eel.on(events.NewMessage(incoming=True, pattern=r"\.join"))
 @ni.on(events.NewMessage(incoming=True, pattern=r"\.join"))
 @shi.on(events.NewMessage(incoming=True, pattern=r"\.join"))
-@yaa.on(events.NewMessage(incoming=True, pattern=r"\.join"))
+@non.on(events.NewMessage(incoming=True, pattern=r"\.join"))
 @dav.on(events.NewMessage(incoming=True, pattern=r"\.join"))
 @raj.on(events.NewMessage(incoming=True, pattern=r"\.join"))
 @put.on(events.NewMessage(incoming=True, pattern=r"\.join"))
@@ -853,7 +853,7 @@ async def _(e):
 @eel.on(events.NewMessage(incoming=True, pattern=r"\.pjoin"))
 @ni.on(events.NewMessage(incoming=True, pattern=r"\.pjoin"))
 @shi.on(events.NewMessage(incoming=True, pattern=r"\.pjoin"))
-@yaa.on(events.NewMessage(incoming=True, pattern=r"\.pjoin"))
+@non.on(events.NewMessage(incoming=True, pattern=r"\.pjoin"))
 @dav.on(events.NewMessage(incoming=True, pattern=r"\.pjoin"))
 @raj.on(events.NewMessage(incoming=True, pattern=r"\.pjoin"))
 @put.on(events.NewMessage(incoming=True, pattern=r"\.pjoin"))
@@ -898,7 +898,7 @@ async def _(e):
 @eel.on(events.NewMessage(incoming=True, pattern=r"\.pleave"))
 @ni.on(events.NewMessage(incoming=True, pattern=r"\.pleave"))
 @shi.on(events.NewMessage(incoming=True, pattern=r"\.pleave"))
-@yaa.on(events.NewMessage(incoming=True, pattern=r"\.pleave"))
+@non.on(events.NewMessage(incoming=True, pattern=r"\.pleave"))
 @dav.on(events.NewMessage(incoming=True, pattern=r"\.pleave"))
 @raj.on(events.NewMessage(incoming=True, pattern=r"\.pleave"))
 @put.on(events.NewMessage(incoming=True, pattern=r"\.pleave"))
@@ -942,7 +942,7 @@ async def _(e):
 @eel.on(events.NewMessage(incoming=True, pattern=r"\.leave"))
 @ni.on(events.NewMessage(incoming=True, pattern=r"\.leave"))
 @shi.on(events.NewMessage(incoming=True, pattern=r"\.leave"))
-@yaa.on(events.NewMessage(incoming=True, pattern=r"\.leave"))
+@non.on(events.NewMessage(incoming=True, pattern=r"\.leave"))
 @dav.on(events.NewMessage(incoming=True, pattern=r"\.leave"))
 @raj.on(events.NewMessage(incoming=True, pattern=r"\.leave"))
 @put.on(events.NewMessage(incoming=True, pattern=r"\.leave"))
@@ -987,7 +987,7 @@ async def _(e):
 @eel.on(events.NewMessage(incoming=True, pattern=r"\.spam"))
 @ni.on(events.NewMessage(incoming=True, pattern=r"\.spam"))
 @shi.on(events.NewMessage(incoming=True, pattern=r"\.spam"))
-@yaa.on(events.NewMessage(incoming=True, pattern=r"\.spam"))
+@non.on(events.NewMessage(incoming=True, pattern=r"\.spam"))
 @dav.on(events.NewMessage(incoming=True, pattern=r"\.spam"))
 @raj.on(events.NewMessage(incoming=True, pattern=r"\.spam"))
 @put.on(events.NewMessage(incoming=True, pattern=r"\.spam"))
@@ -1043,7 +1043,7 @@ async def spam(e):
 @eel.on(events.NewMessage(incoming=True, pattern=r"\.delayspam"))
 @ni.on(events.NewMessage(incoming=True, pattern=r"\.delayspam"))
 @shi.on(events.NewMessage(incoming=True, pattern=r"\.delayspam"))
-@yaa.on(events.NewMessage(incoming=True, pattern=r"\.delayspam"))
+@non.on(events.NewMessage(incoming=True, pattern=r"\.delayspam"))
 @dav.on(events.NewMessage(incoming=True, pattern=r"\.delayspam"))
 @raj.on(events.NewMessage(incoming=True, pattern=r"\.delayspam"))
 @put.on(events.NewMessage(incoming=True, pattern=r"\.delayspam"))
@@ -1108,7 +1108,7 @@ async def spam(e):
 @eel.on(events.NewMessage(incoming=True, pattern=r"\.bigspam"))
 @ni.on(events.NewMessage(incoming=True, pattern=r"\.bigspam"))
 @shi.on(events.NewMessage(incoming=True, pattern=r"\.bigspam"))
-@yaa.on(events.NewMessage(incoming=True, pattern=r"\.bigspam"))
+@non.on(events.NewMessage(incoming=True, pattern=r"\.bigspam"))
 @dav.on(events.NewMessage(incoming=True, pattern=r"\.bigspam"))
 @raj.on(events.NewMessage(incoming=True, pattern=r"\.bigspam"))
 @put.on(events.NewMessage(incoming=True, pattern=r"\.bigspam"))
@@ -1169,7 +1169,7 @@ async def spam(e):
 @eel.on(events.NewMessage(incoming=True, pattern=r"\.raid"))
 @ni.on(events.NewMessage(incoming=True, pattern=r"\.raid"))
 @shi.on(events.NewMessage(incoming=True, pattern=r"\.raid"))
-@yaa.on(events.NewMessage(incoming=True, pattern=r"\.raid"))
+@non.on(events.NewMessage(incoming=True, pattern=r"\.raid"))
 @dav.on(events.NewMessage(incoming=True, pattern=r"\.raid"))
 @raj.on(events.NewMessage(incoming=True, pattern=r"\.raid"))
 @put.on(events.NewMessage(incoming=True, pattern=r"\.raid"))
@@ -1236,7 +1236,7 @@ async def spam(e):
 @eel.on(events.NewMessage(incoming=True))
 @ni.on(events.NewMessage(incoming=True))
 @shi.on(events.NewMessage(incoming=True))
-@yaa.on(events.NewMessage(incoming=True))
+@non.on(events.NewMessage(incoming=True))
 @dav.on(events.NewMessage(incoming=True))
 @raj.on(events.NewMessage(incoming=True))
 @put.on(events.NewMessage(incoming=True))
@@ -1278,7 +1278,7 @@ async def _(event):
 @eel.on(events.NewMessage(incoming=True, pattern=r"\.replyraid"))
 @ni.on(events.NewMessage(incoming=True, pattern=r"\.replyraid"))
 @shi.on(events.NewMessage(incoming=True, pattern=r"\.replyraid"))
-@yaa.on(events.NewMessage(incoming=True, pattern=r"\.replyraid"))
+@non.on(events.NewMessage(incoming=True, pattern=r"\.replyraid"))
 @dav.on(events.NewMessage(incoming=True, pattern=r"\.replyraid"))
 @raj.on(events.NewMessage(incoming=True, pattern=r"\.replyraid"))
 @put.on(events.NewMessage(incoming=True, pattern=r"\.replyraid"))
@@ -1337,7 +1337,7 @@ async def _(e):
 @eel.on(events.NewMessage(incoming=True, pattern=r"\.dreplyraid"))
 @ni.on(events.NewMessage(incoming=True, pattern=r"\.dreplyraid"))
 @shi.on(events.NewMessage(incoming=True, pattern=r"\.dreplyraid"))
-@yaa.on(events.NewMessage(incoming=True, pattern=r"\.dreplyraid"))
+@non.on(events.NewMessage(incoming=True, pattern=r"\.dreplyraid"))
 @dav.on(events.NewMessage(incoming=True, pattern=r"\.dreplyraid"))
 @raj.on(events.NewMessage(incoming=True, pattern=r"\.dreplyraid"))
 @put.on(events.NewMessage(incoming=True, pattern=r"\.dreplyraid"))
@@ -1398,7 +1398,7 @@ async def _(e):
 @eel.on(events.NewMessage(incoming=True, pattern=r"\.ping"))
 @ni.on(events.NewMessage(incoming=True, pattern=r"\.ping"))
 @shi.on(events.NewMessage(incoming=True, pattern=r"\.ping"))
-@yaa.on(events.NewMessage(incoming=True, pattern=r"\.ping"))
+@non.on(events.NewMessage(incoming=True, pattern=r"\.ping"))
 @dav.on(events.NewMessage(incoming=True, pattern=r"\.ping"))
 @raj.on(events.NewMessage(incoming=True, pattern=r"\.ping"))
 @put.on(events.NewMessage(incoming=True, pattern=r"\.ping"))
@@ -1438,7 +1438,7 @@ async def ping(e):
 @eel.on(events.NewMessage(incoming=True, pattern=r"\.restart"))
 @ni.on(events.NewMessage(incoming=True, pattern=r"\.restart"))
 @shi.on(events.NewMessage(incoming=True, pattern=r"\.restart"))
-@yaa.on(events.NewMessage(incoming=True, pattern=r"\.restart"))
+@non.on(events.NewMessage(incoming=True, pattern=r"\.restart"))
 @dav.on(events.NewMessage(incoming=True, pattern=r"\.restart"))
 @raj.on(events.NewMessage(incoming=True, pattern=r"\.restart"))
 @put.on(events.NewMessage(incoming=True, pattern=r"\.restart"))
@@ -1515,7 +1515,7 @@ async def restart(e):
 @eel.on(events.NewMessage(incoming=True, pattern=r"\.help"))
 @ni.on(events.NewMessage(incoming=True, pattern=r"\.help"))
 @shi.on(events.NewMessage(incoming=True, pattern=r"\.help"))
-@yaa.on(events.NewMessage(incoming=True, pattern=r"\.help"))
+@non.on(events.NewMessage(incoming=True, pattern=r"\.help"))
 @dav.on(events.NewMessage(incoming=True, pattern=r"\.help"))
 @raj.on(events.NewMessage(incoming=True, pattern=r"\.help"))
 @put.on(events.NewMessage(incoming=True, pattern=r"\.help"))
@@ -1626,7 +1626,7 @@ if len(sys.argv) not in (1, 3, 4):
     except Exception as e:
         pass
     try:
-        yaa.disconnect()
+        non.disconnect()
     except Exception as e:
         pass
     try:
@@ -1727,7 +1727,7 @@ else:
     except Exception as e:
         pass
     try:
-        yaa.run_until_disconnected()
+        non.run_until_disconnected()
     except Exception as e:
         pass
     try:
